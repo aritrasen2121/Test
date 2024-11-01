@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: blue;
+            color: wheat;
+
+        }
+
+        #links {
+            display: flex;
+            justify-content: space-between;
+            width: 200px;
+        }
+
+        .border {
+            border: 2px solid black;
+        }
+
+        .main {
+            height: 680px;
+            display: flex;
+
+        }
+
+        .main-section {
+            width: 50%;
+            padding-left: 10px;
+        }
+
+        .p1 {
+            font-size: 40px;
+        }
+
+        .p2 {
+            font-size: 30px;
+        }
+
+        .test {
+            height: 200px;
+            width: 200px;
+            background-color: brown;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #main-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            height: 400px;
+        }
+        .flex{
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .relative{
+            position: relative;
+            height: 300px;
+            width: 300px;
+            background-color: cadetblue;
+            margin-top: 100px;
+        }
+        .absolute{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="gen">
+            <h1>Logo</h1>
+        </div>
+        <div class="gen bder" id="links">
+            <h1>Home</h1>
+            <h1>About Us</h1>
+        </div>
+        <div class="ge">
+            <h3>login</h3>
+        </div>
+    </nav>
+
+    <div class="main ">
+        <div class="main-section " id="main-text">
+            <p class="p1 ">some text</p>
+            <p class="p2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, sunt.</p>
+        </div>
+        <div class="main-section img">
+            <img src="https://picsum.photos/200/300" alt="">
+        </div>
+    </div>
+
+    <div class="flex">
+        <div class="test border">
+            test
+        </div>
+        <div class="test border">
+            test
+        </div>
+        <div class="test border">
+            test
+        </div>
+        <div class="test border">
+            test
+        </div>
+        <div class="test border">
+            test
+        </div>
+        <div class="test border">
+            test
+        </div>
+        <div class="test border">
+            test
+        </div>
+        <div class="test border">
+            test
+        </div>
+        <div class="test border">
+            test
+        </div>
+        <div class="test border">
+            test
+        </div>
+    </div>
+    <!-- relative absolute -->
+     <div class="relative">
+        <div class="absolute">
+            test
+        </div>
+     </div>
+</body>
+
+<script>
+    var x = 9;
+    var name = "neha"
+    console.log(x + name);
+
+</script>
+
+</html>
